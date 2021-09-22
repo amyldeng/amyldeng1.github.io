@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lists, Tables and Forms</title>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<div id="page">
+        <!-- Navigation Bar-->
+			<div class="menu-holder">
+                        <nav id="header-main-menu">
+                            <ul class="main-menu ">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="schedule.html">Awards</a>
+                                </li>
+                                <li>
+                                    <a href="mystory.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+            </div>
+         <br/>
+        <!-- Center Heading Text -->
+		<h1 class= "center-text"> For Inquires and Bookings </h1>
+        <!-- Contact form with different options-->
+		<div class = "center-mid-3">
+			<form action="http://www.example.com/form.php" method="get">
+				<fieldset >
+					<legend class = "center-3"> Contact Me</legend>
+					<p><label class="title" for="name">Your name:</label>
+						 <input type="text" name="name" id="name"><br />
+						 <label class="title" for="email">Your email:</label>
+						 <input type="text" name="email" id="email">
+						<label class="title" for="salary">Pay range:</label>
+						 <input type="text" name="salary" id="salary"></p>
+					<p><label for="location" class="title">Job Type:</label>
+						 <select name="location" id="location">
+							 <option value="ny">TV Show</option>
+							 <option value="il">Award Show</option>
+							 <option value="ca">Music Video</option>
+							 <option value="ca">Tour</option>
+
+						 </select></p>
+					<span class="title">Job within 6 months?</span>
+					<label><input type="radio" name="member" value="yes" /> Yes</label>
+					<label><input type="radio" name="member" value="no" /> No</label></p>
+				</fieldset>
+	 	    <div class="submit"><input type="submit" value="Submit" /></div>
+			</form>
+            <!--embed map to show where in US I am located-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.448614057049!2d-79.94503858530837!3d40.44320676195397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1632246282576!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+        <!--Footer, with centered images and text-->
+		<footer class="footer">
+                <div>
+                    <div class="socialmedia"> 
+					    <p> © 2021 </p>
+
+                        <a href="#">
+                            <span class="twitter"> <img class= "smlogo" src="img/f081.png"/></span>
+                        </a> 
+                        <a href="#">
+                            <span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+                        </a> 
+                        <a href="#">
+                            <span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
+                        </a> 
+                    </div>
+                </div>
+        </footer>
+		</div>
+	</body>
+</html>
